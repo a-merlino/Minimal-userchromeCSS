@@ -1,0 +1,27 @@
+#appMenu-popup #appMenu-mainView,
+.panel-arrowcontent,
+panelview {
+  background-color: white !important;
+  border-radius: 8px !important;
+}
+
+.panel-subview-body {
+  padding: 12px !important;
+}
+
+
+
+#appMenu-edit-controls, #appMenu_menu_openTour{
+  display: none !important;
+}
+
+#appMenu-mainView {
+  background-color: white !important;
+  border-radius: 8px !important;
+}
+
+#PanelUI-containers { border-radius: 25px; }
+
+#edit-menu {
+  display: none !important;
+}
