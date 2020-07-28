@@ -1,0 +1,44 @@
+/* Overflow Menu (Hamburger Menu, App Menu, Panel UI) */
+
+#appMenu-popup #appMenu-mainView,
+.panel-arrowcontent,
+panelview {
+  background-color: var(--menuColor, white) !important;
+  border-radius: 8px !important;
+}
+
+.panel-subview-body {
+  padding: 12px !important;
+}
+
+#appMenu-mainView {
+  background-color: var(--menuColor, white) !important;
+  border-radius: 8px !important;
+}
+
+#PanelUI-containers { border-radius: 25px; }
+
+/* Profile Information */
+#appMenu-fxa-label, #appMenu-fxa-icon, #appMenu-fxa-status { display: none !important;}
+
+/* Other bits and bobs */
+#appMenu-zoom-controls, #appMenu-edit-controls, #appMenu_menu_openTour,
+#appMenu-protection-report-button, #edit-menu {
+	display: none !important;
+}
+
+#appMenu-print-button { display: none !important; }
+#appMenu-whatsnew-button, #appMenu-find-button, #appMenuRestoreLastSession,
+#appMenu-save-file-button, #appMenu-open-file-button, #appMenu-quit-button
+#appMenu-customize-button, #appMenu-more-button
+{display: none !important; }
+
+.subviewbutton:hover {
+  background: none !important;
+  color: var(--menuAccent, SlateGray) !important;
+  padding-left: 8px !important;
+  padding-right: 24px !important;
+}
+
+
+toolbarseparator {display: none}

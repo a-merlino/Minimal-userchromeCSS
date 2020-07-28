@@ -1,0 +1,50 @@
+@import "navBar.css";
+@import "tabBar.css";
+@import "contextMenu.css";
+@import "overflowMenu.css";
+
+/* Configurable Options */
+:root {
+	
+	/* Forward and Back buttons */
+ --display-fwdback: none;
+	
+	/* Color of Main Bar */
+ --barColor: Transparent !important;
+	
+	/* Tabs */
+ --tabActive: White;
+ --tabActiveText: White;
+ --tabInactive: SlateGray;
+ --tabInactiveText: White;
+ --tabOpacity: 0.25;
+	
+	/* Menus */
+ --menuColor: White;
+ --menuText: Black;
+ --menuAccent: SlateGray;
+	
+}
+
+
+
+tooltip {display: none !important; }
+
+
+
+.subviewbutton[selected="true"] {
+	background-color: green !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

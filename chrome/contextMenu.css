@@ -1,0 +1,141 @@
+/* Context Menu (Right Click Menu) */
+
+
+/* .subview-subheader, */
+panelview .toolbarbutton-1,
+.subviewbutton,
+.widget-overflow-list .toolbarbutton-1,
+.panel-banner-item
+{
+	min-height: 32px !important;
+	padding: 0 16px !important;
+}
+
+.subviewbutton .toolbarbutton-icon,
+.panel-banner-item .toolbarbutton-icon
+{
+	margin-inline-end: 16px !important;
+	width: 24px !important;
+	height: 24px !important;
+	padding: 4px !important;
+}
+
+.panel-banner-item
+{
+	border: 0 !important;
+}
+
+
+panelmultiview .toolbaritem-combined-buttons > spacer.before-label
+{
+	width: 20px !important;
+}
+
+.panel-header > label
+{
+	text-align: start !important;
+	margin-inline-start: 4px !important;
+}
+
+menuseparator {
+  display: none !important;
+}
+
+
+
+menupopup {
+	-moz-appearance: none !important;
+	padding: 4px 2px 4px 2px !important;
+	background-color: var(--menuColor, White) !important;
+	border: none !important;
+	min-width: 200px !important;
+  border-radius: 8px !important;
+}
+menuseparator {display: none !important;}
+
+menuitem, menu {
+	color: var(--menuText, Black) !important;
+	padding: 4px 0px 4px 8px !important;
+  height: 40px;
+  border-radius: 4px;
+}
+
+/* Disabled actions don't respond when hovering */
+menuitem[disabled = "true"], menuitem:hover[disabled = "true"] {
+  padding: 4px 0px 4px 8px !important;
+}
+
+/* Gray text when disabled */
+menuitem[disabled="true"], menuitem[disabled="true"] > .menu-text {
+	color: Gray !important;
+}
+
+
+menuitem:hover, menu:hover, menu[open="true"], menuitem[_moz-menuactive="true"]	 {
+	color: var(--menuAccent, SlateGray) !important;
+	-moz-appearance: none !important;
+	padding: 4px 8px 4px 0px !important;
+	background: none !important;
+}
+menugroup {background-color: transparent !important;}
+
+menuitem > .menu-text, menuitem > .menu-iconic-text {color: var(--menuText, Black) !important;}
+
+menuitem[type="checkbox"] {
+	padding-left: 8px !important;
+	padding-top: 6.5px !important;
+	padding-bottom: 6.5px !important;
+}
+menuitem[type="radio"] {
+	padding-left: 8px !important;
+	padding-top: 6.5px !important;
+	padding-bottom: 6.5px !important;
+}
+menuitem[type="checkbox"] > .menu-iconic-text, menuitem[type="radio"] > .menu-iconic-text {
+	padding-left: 5px !important;
+}
+menuitem[checked="true"][type="checkbox"] > .menu-iconic-left {
+	padding: 7px 0px 0px 0px !important;
+	border: solid white;
+	border-width: 0 0 2px 2px;
+	transform: rotate(-45deg) scale(.75);
+	margin-bottom: 4px !important;
+}
+menuitem[checked="true"][type="radio"] > .menu-iconic-left {
+	padding: 1px !important;
+	border: solid white;
+	height: 17px !important;
+	border-radius: 100%;
+	background: white;
+	transform: scale(.5); 
+}
+menucaption {
+	background-color: transparent !important;
+	color: white !important;
+}
+#ContentSelectDropdown > menupopup {
+	background-image: none !important;
+}
+#ContentSelectDropdown {
+	padding: 0px !important;
+}
+menulist {
+	-moz-appearance: none !important;
+	padding: 4px !important;
+	border: 2px solid #666666 !important;
+	background-color: transparent !important;
+}
+menulist:hover {
+	padding: 4px !important;
+	border: none !important;
+	background-color: transparent !important;
+}
+menulist[open="true"]  {
+	border: 2px solid #666666 !important;
+	background-color: #333333 !important;
+}
+
+#context-back, #context-forward, #context-reload, #context-stop, #context-bookmarkpage, #context_selectAllTabs,
+#context-pocket, #context_moveToStart, #context_moveToEnd, #context_moveTabOptions, #context_selectAllTabs, #context-savepage, #context-setDesktopBackground {
+	display: none;
+}
