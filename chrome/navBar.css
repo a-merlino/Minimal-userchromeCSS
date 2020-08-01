@@ -20,7 +20,6 @@
 /* The one you actually type in */
 #urlbar-input {
   color: White !important;
-  
 }
 
 /* The results */
@@ -31,24 +30,25 @@
   width: inherit !important;
 }
 
+#urlbarView-action {
+  display: none !important;
+}
+
 #urlbar, .urlbarView-url {
   color: var(--menuText, Black) !important;
   margin: 0 !important;
   border: 0 !important;
   padding: 0 !important;
-    border: none !important;
-}
-
-#urlbar-input-container {
+   border: none !important;
 }
 
 /* Background for everything */
 #urlbar-background {
+  border-style: none !important;
   border-radius: 12px 12px 0px 0px !important;
   width: 30vw !important;
   background-color: transparent !important;
   margin-top: 4px !important;
-
 }
 
 #urlbar-container {width: 30vw !important;}
@@ -58,9 +58,9 @@
   font-size: 14px !important;
 }
 
- .urlbarView-title-separator, .urlbarView-title-separator::before {
-	display: none !important;
-}
+.titlebar-spacer {border: none !important;}
+
+.urlbarView-title-separator, .urlbarView-title-separator::before {display: none !important;}
 
 /* Getting rid of extra fluff */
 .titlebar-placeholder[type="pre-tabs"],
@@ -99,5 +99,6 @@
 /* Overflow Menu */
 #PanelUI-button {
   -moz-box-ordinal-group: 0 !important;
+  border-left-width: 0px !important;
   color: White !important;
 }

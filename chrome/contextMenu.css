@@ -53,6 +53,9 @@ menupopup {
 }
 menuseparator {display: none !important;}
 
+/* Gets rid of menus when you right click tabs and rest of toolbar */
+#toolbar-context-menu, #tabContextMenu {display: none !important;}
+
 menuitem, menu {
 	color: var(--menuText, Black) !important;
 	padding: 4px 0px 4px 8px !important;

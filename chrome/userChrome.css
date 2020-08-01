@@ -3,14 +3,17 @@
 @import "contextMenu.css";
 @import "overflowMenu.css";
 
-/* Configurable Options */
+/* Configurable Options
+Colors: Choose any CSS color, hex code, or rgb() triple
+Opacities: 0.0 (transparent) to 1.0 (opaque)
+Display: Controls the display CSS property. none (don't display), anything else (display).
+*/
+ 
 :root {
 	
-	/* Forward and Back buttons */
- --display-fwdback: none;
-	
-	/* Color of Main Bar */
+	/* Main Bar */
  --barColor: Transparent !important;
+ --display-fwdback: none;
 	
 	/* Tabs */
  --tabActive: White;
@@ -25,7 +28,7 @@
  --menuAccent: SlateGray;
 	
 }
-
+/* End of options */
 
 
 tooltip {display: none !important; }

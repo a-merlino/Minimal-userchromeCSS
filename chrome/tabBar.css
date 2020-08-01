@@ -9,14 +9,13 @@
   background-color: transparent !important;
 }
 
-/* Get rid of separators between tabs */
+/* Separators between tabs */
 .tabbrowser-tab::before, .tabbrowser-tab::after {
 	border-left: none !important;
 }
 
 /* Color for inactive tabs and layout for all tabs */
 .tab-background {
-  color: var(--tabInactiveText, White) !important;
   opacity: var(--tabOpacity, 1) !important;
   background-color: var(--tabInactive, SlateGray) !important;
   border-radius: 12px !important;
@@ -32,7 +31,13 @@
   opacity: var(--tabOpacity, 1) !important;
 }
 
-.tab-label[selected = "true"] {
+/* Inactive tab text */
+.tab-background, .tab-icon-sound {
+  color: var(--tabInactiveText, White) !important;
+}
+
+/* Active tab text */
+.tab-label[selected = "true"], .tab-icon-sound[selected = "true"] {
   color: var(--tabActiveText, Black) !important;
 }
 
