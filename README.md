@@ -12,4 +12,6 @@ My attempt at creating a one liner interface for Firefox using the userChrome.cs
 8. Restart Firefox
 
 # Configuring
-In the userChrome.css file, there are several global variables you can change.
+In the userChrome.css file, there are several global variables you can change. They are all explained inline.
+
+
