@@ -1,3 +1,76 @@
-* {
-	scrollbar-width: none !important;
+@import "settings.css";
+
+* {scrollbar-width: none !important;}
+
+/* New Tab Page */
+@-moz-document url(about:home), url(about:newtab) {
+
+  body {
+    background-Color: White !important;
+    --newtab-search-icon: transparent !important;
+    --newtab-textbox-focus-boxshadow: none !important;
+  }
+
+.fake-textbox {
+color: var(--menuColor) !important;
+opacity: 1.0 !important;
+}
+
+  /* Search Box */
+  .search-handoff-button {
+  border-radius: 24px !important;
+  background-color: var(--menuAccent, White) !important;
+  box-shadow: none !important;
+  border: none !important;
+  }
+}
+
+/* YouTube */
+@-moz-document domain(youtube.com) {
+
+/* Remove Trending tab */
+.yt-simple-endpoint.style-scope.ytd-guide-entry-renderer[title = "Trending"],
+.yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer[title = "Trending"] {
+  display: none !important;
+}
+
+}
+
+/* Letsrun */
+@-moz-document url-prefix(https://www.letsrun.com/forum) {
+  
+
+/* Thread List */
+.thread a:link, .thread a:visited, .thread a:active {color: rgb(0,50,95) !important;}
+
+.thread a:hover {color: #FFC200 !important;}
+
+body {background: WhiteSmoke !important;}
+
+.forum-index-thread-list-container ul li.thread {
+  margin-bottom: 12px !important;
+  padding: 16px !important;
+  background-color: White !important;
+  border-radius: 8px !important;
+  border: 1px solid LightGray !important;
+}
+
+.forum-index-thread-list-container ul li.forum-index-thread-list-header {
+  background: none !important;
+  padding-right: 16px !important;
+}
+
+/* Get rid of stupid shoe rating ad and top links */
+.forum-index-thread-list .thread:nth-child(2), .header-nav-secondary-featured  
+{display: none !important;}
+
+/* In Thread */
+
+.forum-post .post-info-container .post-body {
+  background-color: White !important;
+  border-color: LightGray !important;
+}
+
+.forum-post .post-body blockquote {background-color: WhiteSmoke !important;}
+
 }

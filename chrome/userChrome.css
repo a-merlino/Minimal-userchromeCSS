@@ -2,43 +2,11 @@
 @import "tabBar.css";
 @import "contextMenu.css";
 @import "overflowMenu.css";
+@import "settings.css";
 
-/* Configurable Options
-Colors: Choose any CSS color, hex code, or rgb() triple
-Opacities: 0.0 (transparent) to 1.0 (opaque)
-Display: Controls the display CSS property. none (don't display), anything else (display).
-*/
- 
-:root {
-	
-	/* Main Bar */
- --barColor: Transparent !important;
- --display-fwdback: none;
-	
-	/* Tabs */
- --tabActive: White;
- --tabActiveText: White;
- --tabInactive: SlateGray;
- --tabInactiveText: White;
- --tabOpacity: 0.25;
-	
-	/* Menus */
- --menuColor: White;
- --menuText: Black;
- --menuAccent: SlateGray;
-	
-}
-/* End of options */
-
+/* Misc. Settings */
 
 tooltip {display: none !important; }
-
-
-
-.subviewbutton[selected="true"] {
-	background-color: green !important;
-}
-
 
 
 

@@ -55,3 +55,8 @@
 
 /* Close button on tabs */
 .tab-close-button.close-icon {display: none !important;}
+
+#tabs-newtab-button,
+#new-tab-button {
+  border-radius: 32px !important;
+}
