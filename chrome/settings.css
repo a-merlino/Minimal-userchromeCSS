@@ -8,6 +8,7 @@ Display: Controls the display CSS property. none (don't display), anything else 
 	/* Main Bar */
  --barColor: #607D8B !important;
  --display-fwdback: none;
+ --buttonColor: White;
 	
 	/* Tabs */
  --tabActive: White;

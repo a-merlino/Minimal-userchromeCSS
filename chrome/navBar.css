@@ -18,9 +18,7 @@
 }
 
 /* The one you actually type in */
-#urlbar-input {
-  color: White !important;
-}
+#urlbar-input {color: var(--buttonColor, White) !important;}
 
 /* The results */
 .urlbarView {
@@ -30,9 +28,7 @@
   width: inherit !important;
 }
 
-#urlbarView-action {
-  display: none !important;
-}
+#urlbarView-action {display: none !important;}
 
 #urlbar, .urlbarView-url {
   color: var(--menuText, Black) !important;
@@ -80,6 +76,8 @@
 
 /* Style the back button if you want it */
 #back-button > .toolbarbutton-icon {
+  color: var(--buttonColor, White) !important;
+  fill-opacity: 1 !important;
   transform: scale(.8,.8) !important;
   margin-top: -2px !important;
   -moz-box-ordinal-group: 0 !important; 
@@ -100,5 +98,5 @@
 #PanelUI-button {
   -moz-box-ordinal-group: 0 !important;
   border-left-width: 0px !important;
-  color: White !important;
+  color: var(--ButtonColor, White) !important;
 }

@@ -10,9 +10,7 @@
 }
 
 /* Separators between tabs */
-.tabbrowser-tab::before, .tabbrowser-tab::after {
-	border-left: none !important;
-}
+.tabbrowser-tab::before, .tabbrowser-tab::after {border-left: none !important;}
 
 /* Color for inactive tabs and layout for all tabs */
 .tab-background {
@@ -32,14 +30,10 @@
 }
 
 /* Inactive tab text */
-.tab-background, .tab-icon-sound {
-  color: var(--tabInactiveText, White) !important;
-}
+.tab-background, .tab-icon-sound {color: var(--tabInactiveText, White) !important;}
 
 /* Active tab text */
-.tab-label[selected = "true"], .tab-icon-sound[selected = "true"] {
-  color: var(--tabActiveText, Black) !important;
-}
+.tab-label[selected = "true"], .tab-icon-sound[selected = "true"] {color: var(--tabActiveText, Black) !important;}
 
 .tab-content {
   margin-bottom: 0.5px !important;
