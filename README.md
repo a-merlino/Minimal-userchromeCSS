@@ -1,7 +1,12 @@
 # Minimal-userchromeCSS
-My attempt at creating a one liner interface for Firefox using the userChrome.css file. Still a work in progress, although it is very usable currently.
+A one liner interface for Firefox based on a custom userChrome.css file. Still a work in progress, although currently very usable.
 
-There are also CSS tweaks for some websites.
+Also includes CSS tweaks for some websites.
+
+# Screenshots
+![Screenshot (14)](https://user-images.githubusercontent.com/35540163/114794149-d8360080-9d59-11eb-8d90-48f6d49d8d2a.png)
+![Screenshot (21)](https://user-images.githubusercontent.com/35540163/114794153-d9ffc400-9d59-11eb-8889-157e27d5ad07.png)
+
 
 # Installation
 1. Download the files
@@ -14,6 +19,6 @@ There are also CSS tweaks for some websites.
 8. Restart Firefox
 
 # Configuring
-Inside "settings.css", there are several global variables you can change. They are all explained inline.
+Inside "settings.css", there are several global variables that you can change. They are all explained inline.
 
 
