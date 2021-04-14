@@ -1,5 +1,5 @@
 # Minimal-userchromeCSS
-My attempt at creating a one liner interface for Firefox using the userChrome.css file. Very much a WIP.
+My attempt at creating a one liner interface for Firefox using the userChrome.css file. Still a work in progress, although it is very usable currently.
 
 There are also CSS tweaks for some websites.
 
