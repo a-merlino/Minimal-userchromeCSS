@@ -1,0 +1,17 @@
+/* YouTube */
+@-moz-document domain(youtube.com) {
+
+/* Remove Trending tab */
+.yt-simple-endpoint.style-scope.ytd-guide-entry-renderer[title = "Trending"],
+.yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer[title = "Trending"] {
+  display: none !important;
+}
+
+/* Remove Explore tab */
+
+ytd-mini-guide-entry-renderer.style-scope:nth-child(2) > a:nth-child(1), ytd-guide-section-renderer.style-scope:nth-child(1) > div:nth-child(2) > ytd-guide-entry-renderer:nth-child(2) > a:nth-child(1) {
+  display: none !important;
+}
+
+
+}
