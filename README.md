@@ -1,24 +1,37 @@
 # Minimal-userchromeCSS
-A one liner interface for Firefox based on a custom userChrome.css file. Still a work in progress, although currently very usable.
+A one liner interface for Firefox based on a custom userChrome.css file. Compatible with the Proton UI refresh.
 
-Also includes CSS tweaks for some websites.
+Also includes some website CSS tweaks.
+
+# Features
+* One line interface to keep the focus on the webiste 
+* Extraneous icons disabled to mininize clutter
+* Options to display:
+    * Forward/back button
+    * New tab button
+    * Close tab button
+    * Refresh button    
+* Configurable text, icon, and bar colors
 
 # Screenshots
-![Screenshot (14)](https://user-images.githubusercontent.com/35540163/114794149-d8360080-9d59-11eb-8d90-48f6d49d8d2a.png)
-![Screenshot (21)](https://user-images.githubusercontent.com/35540163/114794153-d9ffc400-9d59-11eb-8889-157e27d5ad07.png)
+![New Tab](https://user-images.githubusercontent.com/35540163/120346317-42cedb80-c2c9-11eb-8240-6ba2467cf1bf.png)
+![Search Results](https://user-images.githubusercontent.com/35540163/120346329-45c9cc00-c2c9-11eb-8df6-ea2b7e87bb44.png)
+![App Menu](https://user-images.githubusercontent.com/35540163/120346918-d0aac680-c2c9-11eb-8078-8a2bfb587e49.png)
+![Account Menu](https://user-images.githubusercontent.com/35540163/120346924-d1dbf380-c2c9-11eb-984c-8b772b518f1f.png)
 
 
 # Installation
 1. Download the files
-2. Go to "about:support" in Firefox
-3. Look for a line saying "Profile Folder" and open that folder (folder name will be letters/numbers followed by .default)
-4. Copy the chrome folder into that folder
-5. Go back to Firefox and go to "about:config"
-6. type "userprof" into the page's search bar
-7. If "toolkit.legacyUserProfileCustomizations.stylesheets" shows up, change it from "false" to "true"
-8. Restart Firefox
+2. Go to "about:config"
+3. Type "userprof" into the page's search bar
+4. If "toolkit.legacyUserProfileCustomizations.stylesheets" shows up, set to "true"
+5. Go to "about:support"
+6. Look for a line saying "Profile Folder" and open that folder (folder name will be letters/numbers followed by .default)
+7. Create folder named "chrome"
+8. Copy  files into "chrome" folder
+9. Restart Firefox
 
-# Configuring
+# Settings
 Inside "settings.css", there are several global variables that you can change. They are all explained inline.
 
 
