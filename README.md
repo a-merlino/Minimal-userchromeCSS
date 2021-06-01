@@ -21,14 +21,13 @@ Also includes some website CSS tweaks.
 
 
 # Installation
-1. Download the files
+1. Download the files; extract "chrome" folder
 2. Go to "about:config"
 3. Type "userprof" into the page's search bar
 4. If "toolkit.legacyUserProfileCustomizations.stylesheets" shows up, set to "true"
 5. Go to "about:support"
 6. Look for a line saying "Profile Folder" and open that folder (folder name will be letters/numbers followed by .default)
-7. Create folder named "chrome"
-8. Copy  files into "chrome" folder
+7. Move chrome folder into that folder
 9. Restart Firefox
 
 # Settings
