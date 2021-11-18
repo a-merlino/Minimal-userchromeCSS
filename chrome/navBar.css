@@ -54,7 +54,7 @@
 
 /* 2. Other Buttons */
 
-#forward-button, #back-button {display: var(--displayFwdBack) !important;}
+#nav-bar-customization-target #forward-button, #nav-bar-customization-target #back-button {display: var(--displayFwdBack) !important;}
 
 /* Extra extensions */
 #nav-bar-overflow-button {display: none !important;}

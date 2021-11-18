@@ -31,7 +31,3 @@ Display: Controls the display CSS property. none (don't display) / inline (displ
  --menuAccent: #607D8B;
 	
 }
-
-#forward-button, #back-button {
-	display: var(--displayFwdBack) !important;
-}
